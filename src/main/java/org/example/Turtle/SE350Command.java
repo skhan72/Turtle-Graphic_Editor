@@ -10,7 +10,7 @@ public class SE350Command extends CompositeCommand {
         // Move to next letter position
         addCommand(new PenUpCommand(turtle));
         addCommand(new TurnCommand(turtle, 90));   // face right
-        addCommand(new MoveCommand(turtle, 7));    // move 7 units for space (5 width + 2 space)
+        addCommand(new MoveCommand(turtle, 10));    // move 7 units for space (5 width + 2 space)
         addCommand(new TurnCommand(turtle, -90));  // face original direction (up)
 
         // Draw E
@@ -19,7 +19,7 @@ public class SE350Command extends CompositeCommand {
         // Move to next letter position
         addCommand(new PenUpCommand(turtle));
         addCommand(new TurnCommand(turtle, 90));   // face right
-        addCommand(new MoveCommand(turtle, 7));
+        addCommand(new MoveCommand(turtle, 10));
         addCommand(new TurnCommand(turtle, -90));  // face original direction
 
         // Draw 3
