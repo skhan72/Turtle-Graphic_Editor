@@ -1,3 +1,8 @@
+//------------------------------------------------------
+// Assignment 4
+// Written by: Summaiya Khan
+// For SES350 Section (zoom ) – Spring 2025
+//--------------------------------------------------------
 package org.example;
 
 import org.example.Turtle.*;
